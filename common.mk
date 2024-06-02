@@ -380,6 +380,10 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     libprotobuf-cpp-lite-3.9.1-vendorcompat
 
+# Workaround for prebuilt Qualcomm neural network HAL
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-3.9.1-vendorcompat
+
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
     ims-ext-common \
