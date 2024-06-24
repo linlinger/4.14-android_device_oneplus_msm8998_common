@@ -209,7 +209,7 @@ PRODUCT_PACKAGES += \
     libion.vendor
 
 # GMS
-ifeq ($(WITH_GMS),true)
+ifeq ($(TARGET_BUILD_PACKAGE), 3)
 GMS_MAKEFILE=gms_minimal.mk
 endif
 
